@@ -11,6 +11,12 @@
             //can't access it due to its protection level being private
 
             #endregion
+            #region Second question
+
+            Console.WriteLine(book.copiesInStock);
+            // can access it since its protection level is internal and the Program class is in the same project
+
+            #endregion
         }
     }
 }
