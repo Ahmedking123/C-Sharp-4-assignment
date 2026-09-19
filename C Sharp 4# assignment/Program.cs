@@ -17,6 +17,11 @@
             // can access it since its protection level is internal and the Program class is in the same project
 
             #endregion
+            #region Third question
+
+            Console.WriteLine(book.title);
+
+            #endregion
         }
     }
 }
