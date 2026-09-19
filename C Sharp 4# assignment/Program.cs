@@ -1,4 +1,6 @@
-﻿namespace C_Sharp_4__assignment
+﻿using System.Runtime.InteropServices;
+
+namespace C_Sharp_4__assignment
 {
     internal class Program
     {
@@ -50,6 +52,19 @@
             string genreText = "Science";
             genre = (Genre)Enum.Parse(typeof(Genre), genreText,true);
             Console.WriteLine(genre);
+
+            #endregion
+            #region Ninth question
+
+            genreText = "Mystery";
+            if (Enum.TryParse(genreText, true, out genre))
+            {
+                Console.WriteLine(genre);
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre");
+            }
 
             #endregion
         }
