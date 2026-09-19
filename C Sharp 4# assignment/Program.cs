@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region First question
+
+            Book book = new Book();
+            Console.WriteLine(book.password);
+            //can't access it due to its protection level being private
+
+            #endregion
         }
     }
 }
