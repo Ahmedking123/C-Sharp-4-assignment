@@ -28,6 +28,11 @@
             Console.WriteLine(book.genre);
 
             #endregion
+            #region Fifth question
+
+            Console.WriteLine($"{(int)Genre.Fiction} { (int)Genre.NonFiction} { (int)Genre.Science}");
+
+            #endregion
         }
     }
 }
