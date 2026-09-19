@@ -33,6 +33,12 @@
             Console.WriteLine($"{(int)Genre.Fiction} { (int)Genre.NonFiction} { (int)Genre.Science}");
 
             #endregion
+            #region Sixth question
+
+            int genreNumber = 1;
+            Console.WriteLine((Genre)genreNumber);
+
+            #endregion
         }
     }
 }
