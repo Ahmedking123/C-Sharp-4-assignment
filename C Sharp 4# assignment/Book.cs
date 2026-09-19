@@ -9,5 +9,6 @@ namespace C_Sharp_4__assignment
         private string password = "Secret";
         internal int copiesInStock = 5;
         public string title = "C# Programming";
+        public Genre genre { get; set; }
     }
 }
